@@ -1,0 +1,743 @@
+ [
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$6.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$6.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$6.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "50126",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.13380465835546,
+    49.26328581657055
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Fairview",
+    "meterid": "872503",
+    "geo_point_2d": {
+    "lon": -123.13380465835546,
+    "lat": 49.26328581657055
+    }
+    },
+    {
+    "meterhead": "Single",
+    "r_mf_9a_6p": "$6.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$6.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$6.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "51670",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.13380809453196,
+    49.263184166741915
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Fairview",
+    "meterid": "872505",
+    "geo_point_2d": {
+    "lon": -123.13380809453196,
+    "lat": 49.263184166741915
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$1.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$1.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$1.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "56076",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.1466661424734,
+    49.26361772701993
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Kitsilano",
+    "meterid": "301816",
+    "geo_point_2d": {
+    "lon": -123.1466661424734,
+    "lat": 49.26361772701993
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$1.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$1.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$1.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "56059",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.14648855589064,
+    49.263615703508165
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Kitsilano",
+    "meterid": "301810",
+    "geo_point_2d": {
+    "lon": -123.14648855589064,
+    "lat": 49.263615703508165
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$1.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$1.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$1.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "56092",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.1463017569992,
+    49.26361252201173
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Kitsilano",
+    "meterid": "301808",
+    "geo_point_2d": {
+    "lon": -123.1463017569992,
+    "lat": 49.26361252201173
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$1.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$1.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$1.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "56040",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.14847951966605,
+    49.26384916937503
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Kitsilano",
+    "meterid": "301903",
+    "geo_point_2d": {
+    "lon": -123.14847951966605,
+    "lat": 49.26384916937503
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$1.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$1.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$1.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "64809",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.12708735633743,
+    49.28971813789611
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Downtown",
+    "meterid": "680504",
+    "geo_point_2d": {
+    "lon": -123.12708735633743,
+    "lat": 49.28971813789611
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$1.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$1.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$1.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "56041",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.14883340678624,
+    49.263854578934
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Kitsilano",
+    "meterid": "301911",
+    "geo_point_2d": {
+    "lon": -123.14883340678624,
+    "lat": 49.263854578934
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$5.00",
+    "r_mf_6p_10": "$4.00",
+    "r_sa_9a_6p": "$5.00",
+    "r_sa_6p_10": "$4.00",
+    "r_su_9a_6p": "$5.00",
+    "r_su_6p_10": "$4.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "50190",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.1170608053208,
+    49.264221055260755
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Fairview",
+    "meterid": "B80539",
+    "geo_point_2d": {
+    "lon": -123.1170608053208,
+    "lat": 49.264221055260755
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$5.00",
+    "r_mf_6p_10": "$4.00",
+    "r_sa_9a_6p": "$5.00",
+    "r_sa_6p_10": "$4.00",
+    "r_su_9a_6p": "$5.00",
+    "r_su_6p_10": "$4.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "51224",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.1154915217198,
+    49.26408588041858
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Fairview",
+    "meterid": "B80508",
+    "geo_point_2d": {
+    "lon": -123.1154915217198,
+    "lat": 49.26408588041858
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$2.00",
+    "r_mf_6p_10": "$2.00",
+    "r_sa_9a_6p": "$2.00",
+    "r_sa_6p_10": "$2.00",
+    "r_su_9a_6p": "$2.00",
+    "r_su_6p_10": "$2.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "61905",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.1026448373732,
+    49.280379449438534
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Downtown",
+    "meterid": "090036",
+    "geo_point_2d": {
+    "lon": -123.1026448373732,
+    "lat": 49.280379449438534
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$2.00",
+    "r_mf_6p_10": "$7.00",
+    "r_sa_9a_6p": "$2.00",
+    "r_sa_6p_10": "$7.00",
+    "r_su_9a_6p": "$2.00",
+    "r_su_6p_10": "$7.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "3 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "3 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "3 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "64047",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.13349941688118,
+    49.29076672469119
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "West End",
+    "meterid": "710713",
+    "geo_point_2d": {
+    "lon": -123.13349941688118,
+    "lat": 49.29076672469119
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$2.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$2.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$2.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "62885",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.12969618701506,
+    49.2881359307597
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "West End",
+    "meterid": "680723",
+    "geo_point_2d": {
+    "lon": -123.12969618701506,
+    "lat": 49.2881359307597
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$2.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$2.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$2.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "3 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "3 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "3 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "52582",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.14114801318664,
+    49.26301846680188
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Fairview",
+    "meterid": "892511",
+    "geo_point_2d": {
+    "lon": -123.14114801318664,
+    "lat": 49.26301846680188
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$2.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$2.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$2.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "3 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "3 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "3 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "54221",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.1411520971075,
+    49.262908270505825
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Fairview",
+    "meterid": "892517",
+    "geo_point_2d": {
+    "lon": -123.1411520971075,
+    "lat": 49.262908270505825
+    }
+    },
+    {
+    "meterhead": "Single",
+    "r_mf_9a_6p": "$1.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$1.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$1.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "3 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "3 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "3 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "62597",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.13113777629995,
+    49.27765588505061
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Downtown",
+    "meterid": "641314",
+    "geo_point_2d": {
+    "lon": -123.13113777629995,
+    "lat": 49.27765588505061
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$2.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$2.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$2.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "3 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "3 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "3 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "53072",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.11323398689933,
+    49.26729945638337
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Mount Pleasant",
+    "meterid": "B20408",
+    "geo_point_2d": {
+    "lon": -123.11323398689933,
+    "lat": 49.26729945638337
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$2.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$2.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$2.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "3 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "3 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "3 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "51025",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.11336982447493,
+    49.26722880980321
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Mount Pleasant",
+    "meterid": "B20412",
+    "geo_point_2d": {
+    "lon": -123.11336982447493,
+    "lat": 49.26722880980321
+    }
+    },
+    {
+    "meterhead": "Twin",
+    "r_mf_9a_6p": "$2.00",
+    "r_mf_6p_10": "$1.00",
+    "r_sa_9a_6p": "$2.00",
+    "r_sa_6p_10": "$1.00",
+    "r_su_9a_6p": "$2.00",
+    "r_su_6p_10": "$1.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "3 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "3 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "3 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "53041",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.11336982447493,
+    49.26722880980321
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Mount Pleasant",
+    "meterid": "B20414",
+    "geo_point_2d": {
+    "lon": -123.11336982447493,
+    "lat": 49.26722880980321
+    }
+    },
+    {
+    "meterhead": "Single / Disability",
+    "r_mf_9a_6p": "$2.00",
+    "r_mf_6p_10": "$2.00",
+    "r_sa_9a_6p": "$2.00",
+    "r_sa_6p_10": "$2.00",
+    "r_su_9a_6p": "$2.00",
+    "r_su_6p_10": "$2.00",
+    "rate_misc": null,
+    "timeineffe": "METER IN EFFECT: 9:00 AM TO 10:00 PM",
+    "t_mf_9a_6p": "2 Hr",
+    "t_mf_6p_10": "4 Hr",
+    "t_sa_9a_6p": "2 Hr",
+    "t_sa_6p_10": "4 Hr",
+    "t_su_9a_6p": "2 Hr",
+    "t_su_6p_10": "4 Hr",
+    "time_misc": null,
+    "creditcard": "No",
+    "pay_phone": "62143",
+    "geom": {
+    "type": "Feature",
+    "geometry": {
+    "coordinates": [
+    -123.09903615114497,
+    49.28031345276394
+    ],
+    "type": "Point"
+    },
+    "properties": {}
+    },
+    "geo_local_area": "Strathcona",
+    "meterid": "090202",
+    "geo_point_2d": {
+    "lon": -123.09903615114497,
+    "lat": 49.28031345276394
+    }
+    }
+    ]
+    
