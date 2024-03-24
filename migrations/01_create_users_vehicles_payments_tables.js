@@ -33,7 +33,7 @@ exports.up = function (knex) {
         })
         .createTable("payments", (table) => {
             table.increments("id").primary();
-            table.integer("card_number").notNullable();
+            table.bigInteger("card_number").notNullable();
             table.string("card_holder_name").notNullable();
             table.timestamp("expiration_date").notNullable();
             table.string("cvv").notNullable();
