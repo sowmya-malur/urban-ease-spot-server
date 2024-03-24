@@ -4,7 +4,7 @@
  */
 exports.up = function (knex) {
     return knex.schema
-        .createTable("user", (table) => {
+        .createTable("users", (table) => {
             table.increments("id").primary();
             table.string("email").notNullable();
             table.string("password").notNullable();
@@ -13,7 +13,7 @@ exports.up = function (knex) {
                 .timestamp("updated_at")
                 .defaultTo(knex.raw("CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"));
         })
-        .createTable("vehicle", (table) => {
+        .createTable("vehicles", (table) => {
             table.increments("id").primary();
             table.string("make").notNullable();
             table.string("model").notNullable();
@@ -23,7 +23,7 @@ exports.up = function (knex) {
             table
                 .integer("user_id")
                 .unsigned()
-                .references("user.id")
+                .references("users.id")
                 .onUpdate("CASCADE")
                 .onDelete("CASCADE");
             table.timestamp("created_at").defaultTo(knex.fn.now());
@@ -31,7 +31,7 @@ exports.up = function (knex) {
                 .timestamp("updated_at")
                 .defaultTo(knex.raw("CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"));
         })
-        .createTable("payment", (table) => {
+        .createTable("payments", (table) => {
             table.increments("id").primary();
             table.integer("card_number").notNullable();
             table.string("card_holder_name").notNullable();
@@ -40,14 +40,14 @@ exports.up = function (knex) {
             table
                 .integer("user_id")
                 .unsigned()
-                .references("user.id")
+                .references("users.id")
                 .onUpdate("CASCADE")
                 .onDelete("CASCADE");
             table.timestamp("created_at").defaultTo(knex.fn.now());
             table
                 .timestamp("updated_at")
                 .defaultTo(knex.raw("CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"));
-        })
+        });
 };
 
 /**
@@ -55,5 +55,5 @@ exports.up = function (knex) {
  * @returns { Promise<void> }
  */
 exports.down = function (knex) {
-    return knex.schema.dropTable("payment").dropTable("vehicle").dropTable("user");
+    return knex.schema.dropTable("payments").dropTable("vehicles").dropTable("users");
 };
