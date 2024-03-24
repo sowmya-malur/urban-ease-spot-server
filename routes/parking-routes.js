@@ -5,4 +5,8 @@ router
   .route('/')
   .get(parkingController.index);
 
+router
+  .route('/:meterId')
+  .get(parkingController.findOne);
+
 module.exports = router;
