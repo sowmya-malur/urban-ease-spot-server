@@ -1,5 +1,6 @@
 const fs = require('fs');
 
+// TODO: change to the most recent version of json file.
 const parkingMetersMasterData = JSON.parse(fs.readFileSync("./data/parking-meter-limited.json","utf-8"));
 
 const formattedParkingMetersData = parkingMetersMasterData.map((parking) => {

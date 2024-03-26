@@ -13,7 +13,32 @@ const index = async (req, res) => {
     // const parkingMeters = JSON.parse(parkingData);
     // res.status(200).send(parkingMeters);
 
-    const data = await knex("parking_meters_master");
+    const data = await knex("parking_meters_master")
+    .join('parking_spots','parking_meters_master.meterid','=', 'parking_spots.meter_id')
+    .select(
+      'meterhead',
+      'r_mf_9a_6p',
+      'r_mf_6p_10',
+      'r_sa_9a_6p',
+      'r_sa_6p_10',
+      'r_su_9a_6p',
+      'r_su_6p_10',
+      'rate_misc',
+      'timeineffe',
+      't_mf_9a_6p',
+      't_mf_6p_10',
+      't_sa_9a_6p',
+      't_sa_6p_10',
+      't_su_9a_6p',
+      't_su_6p_10',
+      'time_misc',
+      'creditcard',
+      'pay_phone',
+      'geo_local_area',
+      'geo_point_2d',
+      'meter_id',
+      'status',
+      'parking_spots.updated_at');
 
     res.status(200).send(data);
   } catch (err) {
