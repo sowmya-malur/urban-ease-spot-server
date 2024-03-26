@@ -20,10 +20,11 @@ exports.up = function (knex) {
             table.string("color").notNullable();
             table.string("license_plate").notNullable();
             table.string("year").notNullable();
+            table.integer("user_id").unsigned().notNullable();
             table
-                .integer("user_id")
-                .unsigned()
-                .references("users.id")
+                .foreign("user_id")
+                .references("id")
+                .inTable("users")
                 .onUpdate("CASCADE")
                 .onDelete("CASCADE");
             table.timestamp("created_at").defaultTo(knex.fn.now());
@@ -37,10 +38,11 @@ exports.up = function (knex) {
             table.string("card_holder_name").notNullable();
             table.timestamp("expiration_date").notNullable();
             table.string("cvv").notNullable();
+            table.integer("user_id").unsigned().notNullable();
             table
-                .integer("user_id")
-                .unsigned()
-                .references("users.id")
+                .foreign("user_id")
+                .references("id")
+                .inTable("users")
                 .onUpdate("CASCADE")
                 .onDelete("CASCADE");
             table.timestamp("created_at").defaultTo(knex.fn.now());

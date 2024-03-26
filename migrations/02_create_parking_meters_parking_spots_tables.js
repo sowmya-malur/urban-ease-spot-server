@@ -37,10 +37,11 @@ exports.up = function (knex) {
             table.increments("id").primary();
             table.string("location").notNullable();
             table.string("status").notNullable();
-            // table.string('meter_id').notNullable();
+            table.string('meter_id').notNullable();
             table
-                .string("meter_id")
-                .references("parking_meters_master.meterid")
+                .foreign("meter_id")
+                .references("meterid")
+                .inTable("parking_meters_master")
                 .onUpdate("CASCADE")
                 .onDelete("CASCADE");
             table.timestamp("created_at").defaultTo(knex.fn.now());
@@ -56,6 +57,4 @@ exports.up = function (knex) {
  */
 exports.down = function (knex) {
     return knex.schema.dropTable("parking_spots").dropTable("parking_meters_master");
-    // return knex.schema.dropTable("parking_spots");
-
 };
