@@ -9,13 +9,13 @@ const fs = require("fs");
  */
 const index = async (req, res) => {
   try {
-    const parkingData = fs.readFileSync("./data/parking-meter-limited.json");
-    const parkingMeters = JSON.parse(parkingData);
+    // const parkingData = fs.readFileSync("./data/parking-meter-limited.json");
+    // const parkingMeters = JSON.parse(parkingData);
+    // res.status(200).send(parkingMeters);
 
-    const result = await knex("parking-meters-master")
-    .insert(parkingMeters);
+    const data = await knex("parking_meters_master");
 
-    res.status(200).send(result);
+    res.status(200).send(data);
   } catch (err) {
     res.status(400).send(`Error retrieving parking meters: ${err}`);
   }
