@@ -1,5 +1,5 @@
 const parkingMetersMasterData = require("../seeds_data/parking-meters-master.js");
-const statusOptions = ["vacant", "occupied", "under maintenance", "broken", "expired"];
+const statusOptions = ["vacant", "occupied", "broken"];
 
 const parkingSpotData = parkingMetersMasterData.map((parking)=>{
     const newParkingSpot = {

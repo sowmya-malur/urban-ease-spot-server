@@ -40,7 +40,7 @@ const index = async (req, res) => {
       'status',
       'parking_spots.updated_at');
 
-    res.status(200).send(data);
+    res.status(200).json(data);
   } catch (err) {
     res.status(400).send(`Error retrieving parking meters: ${err}`);
   }
@@ -56,9 +56,10 @@ const findOne = async (req, res) => {
   try {
     const { meterId } = req.params;
 
-    const parkingData = fs.readFileSync("./data/parking-meter-limited.json");
-    const parkingMeters = JSON.parse(parkingData);
+    // const parkingData = fs.readFileSync("./data/parking-meter-limited.json");
+    // const parkingMeters = JSON.parse(parkingData);
 
+    const parkingMeters = await knex("parking_meters_master");
     // Find the parking meter with the specified meter ID
     const foundParking = parkingMeters.find((parking) => {
       return parking.meterid === meterId;
