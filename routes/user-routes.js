@@ -5,4 +5,12 @@ router
   .route("/:email")
   .get(userController.findOne);
 
+  router
+  .route("/:id/vehicle")
+  .get(userController.findVehicle);
+
+  router
+  .route("/:id/payment")
+  .get(userController.findPayment);
+
 module.exports = router;
