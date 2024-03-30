@@ -3,6 +3,7 @@ const vehiclesData = require("../seeds_data/vehicles.js");
 const paymentsData = require("../seeds_data/payments.js");
 const parkingMetersMasterData = require("../seeds_data/parking-meters-master.js");
 const parkingSpotsData = require("../seeds_data/parking-spots.js");
+const bookingsData = require("../seeds_data/bookings.js")
 
 exports.seed = async function (knex) {
   // Insert seed data for users, vehicles and payments table
@@ -18,4 +19,7 @@ exports.seed = async function (knex) {
   await knex("parking_meters_master").del();
   await knex("parking_meters_master").insert(parkingMetersMasterData);
   await knex("parking_spots").insert(parkingSpotsData);
+
+  await knex("bookings").del();
+  await knex("bookings").insert(bookingsData);
 };
