@@ -3,7 +3,7 @@ const bookingController = require('../controllers/booking-controller');
 
 router
   .route('/:meterId/user/:userId')
-  .get(bookingController.addBooking);
+  .post(bookingController.addBooking);
 
 
 module.exports = router;
