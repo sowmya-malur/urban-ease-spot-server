@@ -90,7 +90,7 @@ const addBooking = async (req, res) => {
 };
 
 const getActiveBooking = async (req, res) => {
-  const [bookingFound] = await knex("bookings").where({
+  const bookingFound = await knex("bookings").where({
     user_id: req.params.userId,
     status: "active",
   });
@@ -101,10 +101,11 @@ const getActiveBooking = async (req, res) => {
     });
   }
 
-   const [parkingInfo] = await knex("parking_meters_master").where(
-    {meterid: bookingFound.meter_id,}
+   const parkingInfo = await knex("parking_meters_master").where(
+    {meterid: bookingFound[0].meter_id,}
    )
 
+   console.log(parkingInfo);
    if(parkingInfo.length === 0) {
     return res.status(404).json({
       message: `No meter found`,
@@ -113,14 +114,59 @@ const getActiveBooking = async (req, res) => {
 
    const response = {
     location: parkingInfo.geo_local_area,
-    ...bookingFound
+    ...bookingFound[0]
   }
 
   res.status(200).json(response);
 };
 
 
+const updateBooking = async (req, res) => {
+// Check for required fields in the request body and params
+if (
+  !req.body.id ||
+  !req.body.status ||
+  !req.params.userId ||
+  !req.params.meterId
+) {
+  return res.status(400).json({
+    message: "Please provide all required fields for the booking.",
+  });
+}
+
+// Prepare the data for insertion by excluding the 'id' field, if present
+const { id, ...updateData } = { ...req.body };
+
+const rowsUpdated = await knex("bookings")
+      .where({ id: req.body.id })
+      .update(updateData);
+
+    // Check if the row was updated
+    if (rowsUpdated === 0) {
+      return res.status(404).json({
+        message: `Booking with ID ${req.body.id} not found`,
+      });
+    }
+
+    // Fetch updated warehouse record from the database
+    const [updatedBooking] = await knex("bookings").where({
+      id: req.body.id,
+    });
+
+    const parkingSpotUpdated = await knex("parking_spots")
+          .where({meter_id: req.params.meterId})
+          .update({status: "vacant"});
+
+          const [updatedParkingSpot] = await knex("parking_spots").where(
+            {meter_id: req.params.meterId,}
+          );
+
+res.status(200).json(updatedBooking);
+
+};
+
 module.exports = {
   addBooking: addBooking,
   getActiveBooking: getActiveBooking,
+  updateBooking: updateBooking,
 };
