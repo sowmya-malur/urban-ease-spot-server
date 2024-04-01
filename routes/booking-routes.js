@@ -5,5 +5,9 @@ router
   .route('/:meterId/user/:userId')
   .post(bookingController.addBooking);
 
+router 
+  .route('/user/:userId')
+  .get(bookingController.getActiveBooking);
+
 
 module.exports = router;

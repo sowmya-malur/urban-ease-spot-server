@@ -89,6 +89,38 @@ const addBooking = async (req, res) => {
   }
 };
 
+const getActiveBooking = async (req, res) => {
+  const [bookingFound] = await knex("bookings").where({
+    user_id: req.params.userId,
+    status: "active",
+  });
+
+  if (bookingFound.length === 0) {
+    return res.status(404).json({
+      message: `No active booking for the user id ${req.params.userId}`,
+    });
+  }
+
+   const [parkingInfo] = await knex("parking_meters_master").where(
+    {meterid: bookingFound.meter_id,}
+   )
+
+   if(parkingInfo.length === 0) {
+    return res.status(404).json({
+      message: `No meter found`,
+    });
+   }
+
+   const response = {
+    location: parkingInfo.geo_local_area,
+    ...bookingFound
+  }
+
+  res.status(200).json(response);
+};
+
+
 module.exports = {
   addBooking: addBooking,
+  getActiveBooking: getActiveBooking,
 };
