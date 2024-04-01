@@ -1,11 +1,12 @@
 const knex = require("knex")(require("../knexfile"));
 
 /**
- * Finds a user by email and password and returns user Id if the user data is found.
+ * Finds a user by email and password and returns user Id if the user data is found
  *
- * @param {*} req - The request object containing email and password.
- * @param {*} res - The response object with user Id.
- */ 
+ * @param {*} req - The request object containing email and password
+ * @param {*} res - The response object with user Id
+ * @returns user id if the user is found successfully
+ */
 const findOne = async (req, res) => {
   try {
     // Validate if email and password are provided in the request
@@ -16,11 +17,11 @@ const findOne = async (req, res) => {
     }
 
     // Check email format
-  if (!/^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/.test(req.body.email)) {
-    return res.status(400).json({
-      message: "Invalid email format.Ex: example@example.com",
-    });
-  }
+    if (!/^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/.test(req.body.email)) {
+      return res.status(400).json({
+        message: "Invalid email format.Ex: example@example.com",
+      });
+    }
     const userFound = await knex("users").where({
       email: req.body.email,
       password: req.body.password,
@@ -47,10 +48,11 @@ const findOne = async (req, res) => {
 };
 
 /**
- * Finds the vehicle for the user id.
+ * Finds the vehicle for the user id
  *
- * @param {*} req - The request object containing parameters and body.
- * @param {*} res - The response object.
+ * @param {*} req - The request object containing parameters and body
+ * @param {*} res - The response object
+ * @returns vehicle data for the given user id
  */
 const findVehicle = async (req, res) => {
   try {
@@ -95,10 +97,11 @@ const findVehicle = async (req, res) => {
 };
 
 /**
- * Finds the payment for the user id.
+ * Finds the payment for the user id
  *
- * @param {*} req - The request object containing parameters and body.
- * @param {*} res - The response object.
+ * @param {*} req - The request object containing parameters and body
+ * @param {*} res - The response object
+ * @returns payment details for the given user id
  */
 const findPayment = async (req, res) => {
   try {
