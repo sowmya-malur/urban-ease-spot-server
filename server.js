@@ -10,6 +10,7 @@ const bookingRoutes = require("./routes/booking-routes");
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static('public')); // Serve static files from a specified directory
 app.use("/api/parking", parkingRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/booking", bookingRoutes);
